@@ -1,0 +1,9 @@
+name: my-redirect-app
+services:
+- name: web
+  github:
+    repo: pwcsuper111/quick-verification
+    branch: main
+  environment_slug: php
+  http_port: 8080
+  run_command: heroku-php-apache2 .
