@@ -17,7 +17,7 @@ define('HMAC_SECRET', 'change-this-to-a-random-secret-string-xyz987');
 function createToken($targetX) {
     $expires = time() + 120;
     $payload = $targetX . '|' . $expires;
-    $sig     = hash_hmac('sha256', $payload, k9#mX2$vQ7!nL4@wR8&jP3^hT6*yF1);
+    $sig     = hash_hmac('sha256', $payload, HMAC_SECRET);
     return base64_encode($payload . '|' . $sig);
 }
 
