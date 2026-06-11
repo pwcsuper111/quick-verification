@@ -188,7 +188,7 @@
                 <line x1="10" y1="24" x2="20" y2="24" stroke="#038387" stroke-width="1.5" opacity="0.4"/>
             </svg>
             <div class="file-details">
-                <div class="file-name">U.S Surveyor-Project-87091.pdf</div>
+                <div class="file-name">Project-87091.pdf</div>
                 <div class="file-meta">248 KB &bull; <span id="currentDate">May 21, 2026</span></div>
             </div>
         </div>
